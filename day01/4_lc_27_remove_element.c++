@@ -1,3 +1,5 @@
+#include <vector>
+using namespace std;
 //  第一次解，没有使用双指针，两个for循环，第一个for循环标记相等的
 //  第二个for循环进行覆盖
 /*
