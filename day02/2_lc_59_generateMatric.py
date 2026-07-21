@@ -1,3 +1,4 @@
+##  出了一点小差错，主要是c++和python的循环结束不一样，所以在循环结束要加个j+=1，i+=1。
 class Solution(object):
     def generateMatrix(self, n):
         """
