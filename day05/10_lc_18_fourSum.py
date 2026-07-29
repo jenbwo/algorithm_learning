@@ -55,7 +55,7 @@ class Solution:
                         while left < right and nums[right] == nums[right - 1]:
                             right -= 1
                         
-                        left += 1
-                        right -= 1
+                        left = left + 1
+                        right = right - 1
         
-        return res
+        return res  
